@@ -115,8 +115,15 @@ The option '-l' (List manifest entries) finds all Manifest files in your configu
 directory (you need to specify your optional config file - otherwise a fallback will be
 used: global config file -> program internal default options). It then filters from which
 databases these are and presents you with a list (you can select more than one!) of them.
+- To finish your selection, notice that "Done" is a certain number. Enter this number 
+  to indicate you are ready to go to the next step.
+
 Once you have chosen, you will be given a list of Manifest files, from which you choose
-again and after that from which you choose differential files. When you have completed
+again and after that from which you choose differential files. 
+- When choosing a manifest file this could take some time to load depending on how 
+  big your backups are.
+
+When you have completed
 all your selections, a list of selected differential files will be shown. You may then
 choose what you want to be done with/to those files. At the moment the options are:
 - create full backup out of differential one
